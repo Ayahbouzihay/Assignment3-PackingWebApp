@@ -23,12 +23,12 @@ GO
 
 CREATE TABLE [dbo].[PackingRecommendation](
     [RecommendationID] int NOT NULL IDENTITY PRIMARY KEY,
-    [UserID] int NOT NULL,
+    [TravelerID] int NOT NULL,
     [Date] DATE NOT NULL,
     [TripCategoryID] int NOT NULL,
     [CriteriaID] int NOT NULL,
     [Recommendations] nvarchar(max) NOT NULL,
-    FOREIGN KEY ([UserID]) REFERENCES [dbo].[Users]([UserID]),
+    FOREIGN KEY ([TravelerID]) REFERENCES [dbo].[Traveler]([TravelerID]),
     FOREIGN KEY ([TripCategoryID]) REFERENCES [dbo].[TripCategory]([CategoryID]),
     FOREIGN KEY ([CriteriaID]) REFERENCES [dbo].[WeatherCriteria]([CriteriaID]))
 GO
