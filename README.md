@@ -6,9 +6,9 @@ Our new company aims to revolutionize travel preparation by seamlessly integrati
 ### Action 3: Select trip category (e.g., hiking, beach, leisure, business).
 ### Action 4: 
 ### spPackingRecommendationsView
-       -Description: View updated packing recommendations for each day of the trip based on weather conditions.
+  -Description: View updated packing recommendations for each day of the trip based on weather conditions.
 ### spActivitiesExplore
-       -Description: Explore activities related to the selected trip category.
+  -Description: Explore activities related to the selected trip category.
 # Sources:
 https://github.com/joshuatmeadows/MIST353-TravelSite/blob/dev/SQL/TravelSiteDBCreation.sql
 https://github.com/joshuatmeadows/MIST353-TravelSite/blob/dev/SQL/StoredProceduresNotes.md
