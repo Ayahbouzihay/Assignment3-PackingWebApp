@@ -4,9 +4,9 @@ Our new company aims to revolutionize travel preparation by seamlessly integrati
 -  Action 1: Register for an account.
 - Action 2: Log in to the account.
 -  Action 3: Select trip category (e.g., hiking, beach, leisure, business).
-- spPackingRecommendationsView
+### - spPackingRecommendationsView
        -Description: View updated packing recommendations for each day of the trip based on weather conditions.
-- spActivitiesExplore
+### - spActivitiesExplore
        -Description: Explore activities related to the selected trip category.
 # Sources:
 https://github.com/joshuatmeadows/MIST353-TravelSite/blob/dev/SQL/TravelSiteDBCreation.sql
