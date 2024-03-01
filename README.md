@@ -15,6 +15,10 @@ Our new company aims to revolutionize travel preparation by seamlessly integrati
   -Description: Allows a user to select what type of trip they will be taking. 
 ### InputTripDates
   -Description: Allows the user to insert the date of their trip to view data about the packing recommendations. 
+### TravelerLogin
+  -Description: Allows the user to log into a account they have created by providing email, username, and password.
+### RegisterTraveleer
+  -Description: Allows the user to register for an account by making them create username and password. 
 # Sources:
 https://github.com/joshuatmeadows/MIST353-TravelSite/blob/dev/SQL/TravelSiteDBCreation.sql
 https://github.com/joshuatmeadows/MIST353-TravelSite/blob/dev/SQL/StoredProceduresNotes.md
